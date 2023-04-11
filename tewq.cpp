@@ -3,12 +3,23 @@
 using namespace std;
 // i am adding a text here
 
+
+
+//hope this works cause bitch
+
+
+
+
+
+
+
 // A recursive binary search function. It returns
 // location of x in given array arr[l..r] is present,
 // otherwise -1
 int binarySearch(int arr[], int l, int r, int x)
 {
 	if (r >= l) {
+		int i;
 		int mid = l + (r - l) / 2;
 
 		// If the element is present at the middle
